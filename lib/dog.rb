@@ -15,6 +15,8 @@ class Dog
   end
 
   def self.print_all
-    @@all.join(" ")
+    @@all.each do |dog|
+      puts dog
+    end
   end
 end
